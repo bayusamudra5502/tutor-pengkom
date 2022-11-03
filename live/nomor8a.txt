@@ -1,0 +1,15 @@
+program faktorial
+{ Perhitungan nilai e }
+
+KAMUS
+  { Nilai n sudah ada }
+  n,i: integer
+  hasil: integer
+
+ALGORITMA
+  hasil <- 1 { Biar ga 0 terus }
+  i <- 1
+
+  while (i <= n) do
+    hasil <- hasil * i
+    i <- i + 1
