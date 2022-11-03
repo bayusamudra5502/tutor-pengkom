@@ -1,0 +1,12 @@
+program euler
+{ Perhitungan nilai e }
+
+KAMUS
+  n,i: integer
+  hasil: integer
+
+ALGORITMA
+  hasil <- 1
+
+  i traversal [1..n]
+    hasil <- hasil * i

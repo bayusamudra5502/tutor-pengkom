@@ -1,0 +1,18 @@
+ifelse (x % 2 == 0) (
+    repeat (x // 2) (
+        repeat 90 (forward, turn L 1),
+        repeat 90 (forward, turn R 1),
+        repeat 90 (forward, turn R 1),
+        repeat 90 (forward, turn L 1)
+    )
+)
+(
+    repeat 90 (forward, turn L 1),
+    repeat 90 (forward, turn R 1),
+    repeat (x // 2) (
+        repeat 90 (forward, turn R 1),
+        repeat 90 (forward, turn L 1),
+        repeat 90 (forward, turn L 1),
+        repeat 90 (forward, turn R 1),
+    )
+)
